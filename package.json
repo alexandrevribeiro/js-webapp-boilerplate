@@ -1,12 +1,13 @@
 {
   "name": "js-webapp-boilerplate",
   "version": "1.0.0",
-  "description": "A boilerplate for a web app using express-app-runner + Babel (ES6) + ESLint",
+  "description": "A boilerplate for a JavaScript Web Application",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development babel-node src/index.js",
     "lint": "esw src --color",
-    "lint-watch": "npm run lint -- --watch"
+    "lint-watch": "npm run lint -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
