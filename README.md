@@ -1,5 +1,8 @@
 # js-webapp-boilerplate
 
+[![Travis Build Status][travis-image]][travis-url]
+[![AppVeyor Build Status][appveyor-image]][appveyor-url]
+
 A boilerplate for a JavaScript Web Application using:
 * [express-app-runner][express-app-runner-url]
 * Babel (using "ES6 preset")
@@ -34,3 +37,9 @@ You can run ESLint in two ways:
     ```
 
 [express-app-runner-url]: https://npmjs.org/package/express-app-runner
+
+[travis-url]: https://travis-ci.org/alexandrevribeiro/js-webapp-boilerplate
+[travis-image]: https://img.shields.io/travis/alexandrevribeiro/js-webapp-boilerplate.svg?label=unix
+
+[appveyor-url]: https://ci.appveyor.com/project/alexandrevribeiro/js-webapp-boilerplate
+[appveyor-image]: https://img.shields.io/appveyor/ci/alexandrevribeiro/js-webapp-boilerplate.svg?label=windows
