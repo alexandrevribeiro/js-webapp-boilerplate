@@ -1,0 +1,19 @@
+{
+  "name": "js-webapp-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for a web app using express-app-runner + Babel (ES6) + ESLint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrevribeiro/js-webapp-boilerplate.git"
+  },
+  "author": "Alexandre Ribeiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexandrevribeiro/js-webapp-boilerplate/issues"
+  },
+  "homepage": "https://github.com/alexandrevribeiro/js-webapp-boilerplate#readme"
+}
