@@ -4,7 +4,7 @@
   "description": "A boilerplate for a web app using express-app-runner + Babel (ES6) + ESLint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cross-env NODE_ENV=development babel-node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/alexandrevribeiro/js-webapp-boilerplate/issues"
   },
-  "homepage": "https://github.com/alexandrevribeiro/js-webapp-boilerplate#readme"
+  "homepage": "https://github.com/alexandrevribeiro/js-webapp-boilerplate#readme",
+  "dependencies": {
+    "express-app-runner": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^5.0.0"    
+  }
 }
